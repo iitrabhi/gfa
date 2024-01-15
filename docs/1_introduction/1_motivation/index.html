@@ -48,6 +48,8 @@
               <p class="caption"><span class="caption-text">Introduction</span></p>
               <ul class="current">
                   <li class="toctree-l1 current"><a class="reference internal current" href="./">Motivation</a>
+    <ul class="current">
+    </ul>
                   </li>
                   <li class="toctree-l1"><a class="reference internal" href="../2_installation/">Installation</a>
                   </li>
@@ -58,7 +60,7 @@
               </ul>
               <p class="caption"><span class="caption-text">Technical Reference</span></p>
               <ul>
-                  <li class="toctree-l1"><a class="reference internal" href="../../2_theory/1_getting_started/">Getting Started</a>
+                  <li class="toctree-l1"><a class="" href="../../2_theory/1_getting_started.md">Getting Started</a>
                   </li>
               </ul>
               <p class="caption"><span class="caption-text">API Documentation</span></p>
@@ -95,7 +97,65 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
             <div class="section" itemprop="articleBody">
               
-                
+                <h1 id="list-of-code">List of Code</h1>
+<ul>
+<li>[<strong>floating_elastic.inp</strong>] ABAQUS input file for floating ice shelves with constant density assuming linear elastic rheology.</li>
+<li>[<strong>floating_visco.inp</strong>] ABAQUS input file for floating ice shelves with constant density assuming elasto-visco-plastic rheology.</li>
+<li>[<strong>floating_var_rho.inp</strong>] ABAQUS input file for floating ice shelves with depth-varying density assuming elasto-visco-plastic rheology.</li>
+<li>[<strong>CZM_elastic.for</strong>] ABAQUS user-defined elements subroutine for water-filled cohesive zone elements.</li>
+<li>[<strong>CZM_visco.for</strong>] ABAQUS user-defined elements subroutine for water-filled cohesive zone elements and ABAQUS user-defined material subroutine for ice with elasto-visco-plastic rheology.</li>
+<li>[<strong>CZM_sep.for</strong>] ABAQUS user-defined elements subroutine for water-filled cohesive zone elements and ABAQUS user-defined material subroutine for ice with elasto-visco-plastic rheology. The crevasse depth and separation are recorded at each increment.</li>
+<li>[<strong>CZM_temp.for</strong>] ABAQUS user-defined elements subroutine for water-filled cohesive zone elements and ABAQUS user-defined material subroutine for ice with elasto-visco-plastic rheology and depth-varying temperature.</li>
+<li>[<strong>generate.ipynb</strong>] Jupyter notebook for generating multiple tasks to run simulations in batches.</li>
+<li>[<strong>get_results.ipynb</strong>] Jupyter notebook for getting crack depth results from multiple simulations.</li>
+<li>[<strong>submit.py</strong>] Python script for submitting Abaqus tasks in batches.</li>
+<li>[<strong>submit.bat</strong>] Run <code>submit.py</code> with double-click in Windows.</li>
+</ul>
+<h1 id="getting-started">Getting Started</h1>
+<h2 id="environment-setup-for-abaqus-standard-and-subroutine">Environment setup for ABAQUS standard and subroutine</h2>
+<p>Please follow the ABAQUS documentation to set up the environment for ABAQUS standard<br />
+and subroutines. If you want to run tasks in batches, please install Python and Jupyter notebook. To acquire all results by <code>get_results.ipynb</code>, please install Pandas (Python package).</p>
+<h2 id="numerical-examples">Numerical examples</h2>
+<h3 id="single-simulation">Single simulation</h3>
+<p>The output path needs to be stated by modifying the <code>open</code> function in the subroutines (.for files) before running. The simulations can be run via the following command in the environment.</p>
+<ul>
+<li>
+<p>Surface crevasse depth predictions for floating ice shelves with constant density and temperature assuming linear elastic rheology
+<code>abaqus job={job name} user=CZM_elastic.for inp=floating_elastic.inp ask_delete=OFF int</code> </p>
+</li>
+<li>
+<p>Surface crevasse depth predictions for floating ice shelves with constant density and temperature assuming elasto-visco-plastic rheology
+<code>abaqus job={job name} user=CZM_visco.for inp=floating_visco.inp ask_delete=OFF int</code></p>
+</li>
+<li>
+<p>Surface crevasse depth predictions for floating ice shelves with depth-varying density and constant temperature assuming elasto-visco-plastic rheology
+<code>abaqus job={job name} user=CZM_visco.for inp=floating_var_rho.inp ask_delete=OFF int</code></p>
+</li>
+<li>
+<p>Surface crevasse depth predictions for floating ice shelves with constant density and depth-varying temperature assuming elasto-visco-plastic rheology
+<code>abaqus job={job name} user=CZM_temp.for inp=floating_visco.inp ask_delete=OFF int</code></p>
+</li>
+<li>
+<p>Surface crevasse depth predictions for floating ice shelves with depth-varying density and temperature assuming elasto-visco-plastic rheology
+<code>abaqus job={job name} user=CZM_temp.for inp=floating_var_rho.inp ask_delete=OFF int</code></p>
+</li>
+</ul>
+<p>To modify <span class="arithmatex">\(\sigma_{max}\)</span>, change the value after <code>sig =</code> (<span class="arithmatex">\(Pa\)</span> for elastic and <span class="arithmatex">\(10^6 Pa\)</span> for viscoelastic) in the subroutine. To midify <span class="arithmatex">\(h_s/d_s\)</span>, change the value after <code>hs_ratio =</code> in the subroutine.</p>
+<h3 id="run-simulations-in-batches">Run simulations in batches</h3>
+<ol>
+<li>Put <code>generate.ipynb</code>, <code>get_results.ipynb</code>, <code>submit.py</code>, <code>submit.bat</code>, Abaqus input file and subroutine in a same folder.</li>
+<li>In <code>generate.ipynb</code>, modify <code>open("CZM.for")</code> according to the subroutine file name.</li>
+<li>In <code>generate.ipynb</code>, add the interested meltwater ratio values to the <code>hs_ratio_list</code>.</li>
+<li>In <code>submit.py</code>, add the meltwater ratio values of the task that going to be submitted to the <code>hs_ratio_list</code>. Please ensure you have enough memory and Abaqus license to run multiple tasks in parallel.</li>
+<li>You can directly run <code>submit.py</code> or in Windows, run <code>submit.bat</code> to run simulations in parallel.</li>
+<li>In <code>get_results.ipynb</code>, add the interested meltwater ratio values to the <code>hs_ratio_list</code> to get the results.</li>
+</ol>
+<p>### Reproduce results in the paper
+ - Fig. 5(a): Run simulations in batches with <code>floating_elastic.inp</code> and <code>CZM_elastic.for</code> by taking <code>sig = 1d3</code>, <code>sig = 35d3</code>, <code>sig = 110d3</code> and <code>sig = 220d3</code> in the subroutine.
+ - Fig. 5(b): Run simulations in batches with <code>floating_visco.inp</code> and <code>CZM_visco.for</code> by taking <code>sig = 35d-3</code>, <code>sig = 110d-3</code> and <code>sig = 220d-3</code> in the subroutine.
+ - Fig. 6(a)(b): run simulations with <code>floating_visco.inp</code> and <code>CZM_sep.for</code> by taking <code>sig = 35d-3</code>, <code>sig = 110d-3</code> and <code>sig = 220d-3</code> in the subroutine.
+ - Table 1: Taking <code>hs_ratio = 0d0</code> in the subroutine. Run simulations follow the tutorial in single simulation section by  taking <code>sig = 35d-3</code>, <code>sig = 110d-3</code> and <code>sig = 220d-3</code> in the subroutine.
+ - Table 2: Taking <code>hs_ratio = 0.9d0</code> in the subroutine. Run simulations follow the tutorial in single simulation section by  taking <code>sig = 35d-3</code>, <code>sig = 110d-3</code> and <code>sig = 220d-3</code> in the subroutine.</p>
               
             </div>
           </div><footer>
