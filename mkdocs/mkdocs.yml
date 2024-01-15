@@ -2,7 +2,7 @@ site_name: Glacier
 theme:
   name: readthedocs
   highlightjs: true
-  logo: img/logo.svg
+  logo: img/CPML-VU.svg
 
 plugins:
   - search

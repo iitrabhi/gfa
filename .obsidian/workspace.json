@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "mkdocs/docs/3_cyber_learning_tools/1_motivation.md",
+                "file": "mkdocs/docs/index.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "mkdocs/docs/3_cyber_learning_tools/1_motivation.md",
+                "file": "mkdocs/docs/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "mkdocs/docs/3_cyber_learning_tools/1_motivation.md",
+                "file": "mkdocs/docs/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "mkdocs/docs/3_cyber_learning_tools/1_motivation.md"
+                "file": "mkdocs/docs/index.md"
               }
             }
           },
@@ -192,13 +192,20 @@
     "docs/css/fonts/fontawesome-webfont.ttf",
     "docs/css/fonts/fontawesome-webfont.svg",
     "docs/img/logo.svg",
+    "docs/img/CPML-VU.svg",
+    "docs/attachments/Artboard1.png",
     "mkdocs/site/css/fonts/fontawesome-webfont.svg",
     "mkdocs/site/img/logo.svg",
+    "mkdocs/site/img/CPML-VU.svg",
+    "mkdocs/site/attachments/Artboard1.png",
+    "mkdocs/docs/attachments/Artboard1.png",
+    "mkdocs/docs/1_codes/2_installation.md",
+    "mkdocs/docs/1_codes/3_damage_mechanics_challenge.md",
+    "mkdocs/docs/3_cyber_learning_tools/1_motivation.md",
+    "mkdocs/docs/img/CPML-VU.svg",
     "mkdocs/docs/2_workshop/1_motivation.md",
     "mkdocs/docs/1_codes/1_motivation.md",
     "mkdocs/docs/index.md",
-    "mkdocs/docs/1_codes/2_installation.md",
-    "mkdocs/docs/3_cyber_learning_tools/1_motivation.md",
     "mkdocs/README.md",
     "mkdocs/docs/1_codes/4_contributing.md",
     "admin/architecture.canvas",
@@ -213,12 +220,6 @@
     "paint.canvas",
     "README.md",
     "scripts/1_validation/1_no_crevasse/readme.md",
-    "scripts/1_validation/1_no_crevasse/attachments/Pasted image 20240105155429.png",
-    "attachments/Pasted image 20240105155259.png",
-    "attachments/Pasted image 20240105154758.png",
-    "attachments/Pasted image 20240105154552.png",
-    "attachments/Pasted image 20240105154349.png",
-    "scripts/1_validation/1_no_crevasse/attachments/Pasted image 20240105152017.png",
     "scripts/1_validation/1_no_crevasse/understanding _glaciers.md",
     "admin/6_logs/2023-12-26.md",
     "mkdocs/docs/2_theory/1_getting_started.md",
@@ -227,7 +228,6 @@
     "scripts/2_dmc/readme.md",
     "scripts/1_validation/2_single_crevasse/readme.md",
     "scripts/1_validation/readme.md",
-    "scripts/1_validation/4_buoyancy/readme.md",
     "plan.canvas",
     "3_our_implementation/2_paper_problems/1_calibration/Untitled.canvas",
     "4_latex_source/paper structure.canvas"

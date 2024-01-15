@@ -1,6 +1,7 @@
 # Fracture Mechanics of Antarctic Ice Shelves and Glaciers
 [NSF PLR 1847173](https://my.vanderbilt.edu/cpml/research/nsf-plr-1847173/)– CAREER: Representing Iceberg Calving in Ice Sheet Models and Developing Cyber-learning Tools for Outreach
 
+![](attachments/Artboard1.png)
 ## Overview
 Iceberg calving is a complex natural fracture process and a dominant cause of mass loss from the floating ice shelves on the margins of the Antarctic ice sheet. There is concern that rapid changes at these ice shelves can destabilize parts of the ice sheet and accelerate their contribution to sea-level rise. 
 
