@@ -1,8 +1,22 @@
-site_name: Glacier
+site_name: Glac
+
+nav:
+  - Home: index.md
+  - Codes:
+      - Motivation: 1_codes/1_motivation.md
+      - Installation: 1_codes/2_installation.md
+  - Workshop:
+      - Motivation: 2_workshop/1_motivation.md
+  - Cyber learning tools:
+      - Motivation: 3_cyber_learning_tools/1_motivation.md
+
+
 theme:
   name: readthedocs
   highlightjs: true
   logo: img/CPML-VU.svg
+
+copyright: Site developed and maintained by <a href="https://abhigupta.io">Abhinav Gupta</a>
 
 plugins:
   - search
@@ -22,12 +36,3 @@ extra_javascript:
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 
-nav:
-  - Home: index.md
-  - Codes:
-      - Motivation: 1_codes/1_motivation.md
-      - Installation: 1_codes/2_installation.md
-  - Workshop:
-      - Motivation: 2_workshop/1_motivation.md
-  - Cyber learning tools:
-      - Motivation: 3_cyber_learning_tools/1_motivation.md
