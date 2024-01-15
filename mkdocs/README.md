@@ -1,5 +1,5 @@
 ## Building the website
-In MkDocs, the default folder for documentation source files is named "docs," and the generated static site files are placed in a folder named "site" after building the documentation. However, since GitHub Pages requires a "docs" folder at the root of the repository to serve the website, I store my MkDocs content in a separate "mkdocs" folder. The provided command restructures the output to meet GitHub Pages' requirements, ensuring the built site is moved to a "docs" folder at the root of my repository.
+In MkDocs, the default folder for documentation source files is named "docs," the generated static site files are placed in a folder named "site" after building the documentation. However, since GitHub Pages requires a "docs" folder at the root of the repository to serve the website, I store my MkDocs content in a separate "mkdocs" folder. The provided command restructures the output to meet GitHub Pages' requirements, ensuring the built site is moved to a "docs" folder at the root of my repository.
 
 ```bash
 "rm -rf ../docs && mkdocs build && mv site ../docs"

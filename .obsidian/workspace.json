@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "mkdocs/docs/index.md",
+                "file": "mkdocs/docs/3_cyber_learning_tools/1_motivation.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "mkdocs/docs/index.md",
+                "file": "mkdocs/docs/3_cyber_learning_tools/1_motivation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "mkdocs/docs/index.md",
+                "file": "mkdocs/docs/3_cyber_learning_tools/1_motivation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "mkdocs/docs/index.md"
+                "file": "mkdocs/docs/3_cyber_learning_tools/1_motivation.md"
               }
             }
           },
@@ -179,6 +179,13 @@
   },
   "active": "faead026aa1841dd",
   "lastOpenFiles": [
+    "mkdocs/docs/2_workshop/1_motivation.md",
+    "mkdocs/docs/1_codes/1_motivation.md",
+    "mkdocs/docs/index.md",
+    "mkdocs/docs/1_codes/2_installation.md",
+    "mkdocs/docs/3_cyber_learning_tools/1_motivation.md",
+    "mkdocs/README.md",
+    "mkdocs/docs/1_codes/4_contributing.md",
     "docs/css/fonts/lato-normal.woff2",
     "docs/css/fonts/lato-normal.woff",
     "docs/css/fonts/lato-normal-italic.woff2",
@@ -189,18 +196,14 @@
     "docs/css/fonts/lato-bold-italic.woff",
     "docs/css/fonts/fontawesome-webfont.woff2",
     "docs/css/fonts/fontawesome-webfont.woff",
-    "docs/css/fonts/fontawesome-webfont.ttf",
     "docs/css/fonts/fontawesome-webfont.svg",
     "docs/img/logo.svg",
     "mkdocs/site/css/fonts/fontawesome-webfont.svg",
     "mkdocs/site/img/logo.svg",
-    "mkdocs/docs/1_introduction/1_motivation.md",
-    "mkdocs/docs/index.md",
     "admin/architecture.canvas",
     "admin/idp.md",
     "admin/7_meetings/Meeting - 2024-01-09.md",
     "mkdocs/docs/4_examples/1_examples.md",
-    "mkdocs/README.md",
     "admin/7_meetings/Untitled.canvas",
     "admin/6_logs/2023-12-18.md",
     "admin/7_meetings/Meeting - 2024-01-11.md",
@@ -208,7 +211,6 @@
     "admin/7_meetings/Meeting - 2023-12-22.md",
     "paint.canvas",
     "README.md",
-    "mkdocs/docs/3_api/1_api.md",
     "scripts/1_validation/1_no_crevasse/readme.md",
     "scripts/1_validation/1_no_crevasse/attachments/Pasted image 20240105155429.png",
     "attachments/Pasted image 20240105155259.png",
@@ -216,13 +218,10 @@
     "attachments/Pasted image 20240105154552.png",
     "attachments/Pasted image 20240105154349.png",
     "scripts/1_validation/1_no_crevasse/attachments/Pasted image 20240105152017.png",
-    "mkdocs/docs/1_introduction/4_contributing.md",
     "scripts/1_validation/1_no_crevasse/understanding _glaciers.md",
-    "mkdocs/docs/2_theory/1_phase_field_fracture.md",
     "admin/6_logs/2023-12-26.md",
     "mkdocs/docs/2_theory/1_getting_started.md",
-    "mkdocs/docs/1_introduction/3_quickstart.md",
-    "mkdocs/docs/1_introduction/2_installation.md",
+    "mkdocs/docs/1_codes/3_quickstart.md",
     "scripts/3_stokes/readme.md",
     "scripts/2_dmc/readme.md",
     "scripts/1_validation/2_single_crevasse/readme.md",

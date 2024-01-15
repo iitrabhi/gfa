@@ -2,17 +2,23 @@
 [NSF PLR 1847173](https://my.vanderbilt.edu/cpml/research/nsf-plr-1847173/)– CAREER: Representing Iceberg Calving in Ice Sheet Models and Developing Cyber-learning Tools for Outreach
 
 ## Overview
-Iceberg calving is a complex natural fracture process and a dominant cause of mass loss from the floating ice shelves on the margins of the Antarctic ice sheet. There is concern that rapid changes at these ice shelves can destabilize parts of the ice sheet and accelerate their contribution to sea-level rise. This project aims to understand and simulate the fracture mechanics of calving and develop physically consistent calving schemes for ice-sheet models. This would enable a more reliable estimation of Antarctic mass loss by reducing the uncertainty in projections. The two research aims are to:
+Iceberg calving is a complex natural fracture process and a dominant cause of mass loss from the floating ice shelves on the margins of the Antarctic ice sheet. There is concern that rapid changes at these ice shelves can destabilize parts of the ice sheet and accelerate their contribution to sea-level rise. 
 
-1. investigate crevasse propagation in viscous glacier ice using conduct full-Stokes fracture mechanics models and
-2. develop fracture-physics-based calving schemes for depth-integrated, higher-order Stokes flow approximations in ice sheet models.
+This project aims to understand and simulate the fracture mechanics of calving and develop physically consistent calving schemes for ice-sheet models. This would enable a more reliable estimation of Antarctic mass loss by reducing the uncertainty in projections. 
 
-This project aims to provide a fundamental understanding of iceberg calving by advancing the frontiers in computational fracture mechanics and nonlinear continuum mechanics and translating it to glaciology. The project investigates crevasse propagation using poro-damage mechanics models for hydro-fracture consistent with nonlinear viscous ice rheology and the thermodynamics of refreezing in narrow crevasses at meter-length scales. A multi-scale method will develop a fracture-physics-based scheme to represent better calving in ice-sheet models. The effort will also address research questions related to the calving behavior of floating ice shelves and glaciers, with the goal of enabling more reliable prediction of calving fronts in whole-Antarctic ice-sheet simulations over decadal-to-millennial time scales.
+**The two research aims are to:**
 
-The research plan is integrated with an education and outreach plan that aims to:
+1. **Full Stokes simulation:** investigate crevasse propagation in viscous glacier ice using conduct full-Stokes fracture mechanics models and
+2. **Depth-integrated modeling:** develop fracture-physics-based calving schemes for depth-integrated, higher-order Stokes flow approximations in ice sheet models.
 
-1. enhance computational modeling skills of engineering and Earth science students through a cross-college course and a high-performance computing workshop and
-2. increase participation and diversity in engineering and sciences by providing undergraduates with interdisciplinary research opportunities and deploying new cyber-learning tools to engage local K-12 students in the Metro Nashville Public Schools in computational science, engineering, and glaciology.
+This project aims to provide a fundamental understanding of iceberg calving by advancing the frontiers in computational fracture mechanics and nonlinear continuum mechanics and translating it to glaciology. The project investigates crevasse propagation using poro-damage mechanics models for hydro-fracture consistent with nonlinear viscous ice rheology and the thermodynamics of refreezing in narrow crevasses at meter-length scales. 
+
+A multi-scale method will develop a fracture-physics-based scheme to represent better calving in ice-sheet models. The effort will also address research questions related to the calving behavior of floating ice shelves and glaciers, with the goal of enabling more reliable prediction of calving fronts in whole-Antarctic ice-sheet simulations over decadal-to-millennial time scales.
+
+**The research plan is integrated with an education and outreach plan that aims to:**
+
+1. **Workshops:** enhance computational modeling skills of engineering and Earth science students through a cross-college course and a high-performance computing workshop and
+2. **Cyber-learning tools:** increase participation and diversity in engineering and sciences by providing undergraduates with interdisciplinary research opportunities and deploying new cyber-learning tools to engage local K-12 students in the Metro Nashville Public Schools in computational science, engineering, and glaciology.
 
 ## Publications
 - Duddu, R., Jimenez, S., and J. N. Bassis. “A nonlocal continuum poro-damage mechanics model for hydrofracturing of surface crevasses in grounded glaciers.” Journal of Glaciology, 66(257): 415-429, 2020, doi: 10.1017/jog.2020.16 ([link](http://dx.doi.org/10.1017/jog.2020.16))

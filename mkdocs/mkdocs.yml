@@ -24,14 +24,10 @@ extra_javascript:
 
 nav:
   - Home: index.md
-  - Introduction:
-      - Motivation: 1_introduction/1_motivation.md
-      - Installation: 1_introduction/2_installation.md
-      - Quickstart: 1_introduction/3_quickstart.md
-      - Contributing: 1_introduction/4_contributing.md
-  - Technical Reference:
-      - Getting Started: 2_theory/1_getting_started.md
-  - API Documentation:
-      - API: 3_api/1_api.md
-  - Examples:
-      - Examples: 4_examples/1_examples.md
+  - Codes:
+      - Motivation: 1_codes/1_motivation.md
+      - Installation: 1_codes/2_installation.md
+  - Workshop:
+      - Motivation: 2_workshop/1_motivation.md
+  - Cyber learning tools:
+      - Motivation: 3_cyber_learning_tools/1_motivation.md
