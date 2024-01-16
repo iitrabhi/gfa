@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "mkdocs/docs/index.md",
+                "file": "mkdocs/docs/1_codes/1_motivation.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "mkdocs/docs/index.md",
+                "file": "mkdocs/docs/1_codes/1_motivation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "mkdocs/docs/index.md",
+                "file": "mkdocs/docs/1_codes/1_motivation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "mkdocs/docs/index.md"
+                "file": "mkdocs/docs/1_codes/1_motivation.md"
               }
             }
           },
@@ -179,17 +179,19 @@
   },
   "active": "faead026aa1841dd",
   "lastOpenFiles": [
+    "mkdocs/docs/1_codes/3_damage_mechanics_challenge.md",
+    "mkdocs/docs/index.md",
+    "mkdocs/docs/1_codes/1_motivation.md",
+    "mkdocs/docs/css/custom.css",
+    "mkdocs/docs/css",
+    "mkdocs/css/custom.css",
+    "mkdocs/css",
     "docs/css/fonts/lato-normal.woff2",
     "docs/css/fonts/lato-normal.woff",
     "docs/css/fonts/lato-normal-italic.woff2",
     "docs/css/fonts/lato-normal-italic.woff",
     "docs/css/fonts/lato-bold.woff2",
     "docs/css/fonts/lato-bold.woff",
-    "docs/css/fonts/lato-bold-italic.woff2",
-    "docs/css/fonts/lato-bold-italic.woff",
-    "docs/css/fonts/fontawesome-webfont.woff2",
-    "docs/css/fonts/fontawesome-webfont.woff",
-    "docs/css/fonts/fontawesome-webfont.ttf",
     "docs/css/fonts/fontawesome-webfont.svg",
     "docs/img/logo.svg",
     "docs/img/CPML-VU.svg",
@@ -200,12 +202,9 @@
     "mkdocs/site/attachments/Artboard1.png",
     "mkdocs/docs/attachments/Artboard1.png",
     "mkdocs/docs/1_codes/2_installation.md",
-    "mkdocs/docs/1_codes/3_damage_mechanics_challenge.md",
     "mkdocs/docs/3_cyber_learning_tools/1_motivation.md",
     "mkdocs/docs/img/CPML-VU.svg",
     "mkdocs/docs/2_workshop/1_motivation.md",
-    "mkdocs/docs/1_codes/1_motivation.md",
-    "mkdocs/docs/index.md",
     "mkdocs/README.md",
     "mkdocs/docs/1_codes/4_contributing.md",
     "admin/architecture.canvas",

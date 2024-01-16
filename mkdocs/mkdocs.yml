@@ -5,6 +5,7 @@ nav:
   - Codes:
       - Motivation: 1_codes/1_motivation.md
       - Installation: 1_codes/2_installation.md
+      - Damage Mechanics Challenge: 1_codes/3_damage_mechanics_challenge.md
   - Workshop:
       - Motivation: 2_workshop/1_motivation.md
   - Cyber learning tools:
@@ -17,6 +18,8 @@ theme:
   logo: img/CPML-VU.svg
 
 copyright: Site developed and maintained by <a href="https://abhigupta.io">Abhinav Gupta</a>
+extra_css:
+  - css/custom.css
 
 plugins:
   - search

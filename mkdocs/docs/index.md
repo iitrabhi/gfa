@@ -62,4 +62,3 @@ A multi-scale method will develop a fracture-physics-based scheme to represent b
 2. Modeling Fracture Propagation in Marine-Terminating Glaciers and Ice Shelves Using Continuum Damage Mechanics. Biweekly Solid Earth and Planetary Physics Seminar (BISEPPS), Harvard University, Cambridge, MA, July 1, 2020.
 3. Modeling crevasse propagation in glaciers due to hydromechanical fracture. Georgia Institute of Technology, Atlanta, GA, August 22, 2019.
 
-## Team
